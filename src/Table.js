@@ -17,43 +17,43 @@ console.log('dataSet', dataSet);
 // by reducing it
 const rawData = {
     empty: {
-        header: '',
+        Header: '',
         accessor: '#',
     },
     all: {
-        header: 'All Buildings',
+        Header: 'All Buildings',
         accessor: 'All\nBuildings',
     },
     structure: {
-        header: 'All Structures',
+        Header: 'All Structures',
         accessor: 'All\nBuildings',
     },
     city: {
-        header: 'City',
+        Header: 'City',
         accessor: 'City',
     },
     country: {
-        header: 'Country',
+        Header: 'Country',
         accessor: 'country',
     },
     telecom: {
-        header: 'Telecom Towers',
+        Header: 'Telecom Towers',
         accessor: 'Telecom\nTowers',
     },
     hundred: {
-        header: '100+',
+        Header: '100+',
         accessor: '100+',
     },
     hundredFifty: {
-        header: '150+',
+        Header: '150+',
         accessor: '150+',
     },
     twoHundred: {
-        header: '200+',
+        Header: '200+',
         accessor: '200+',
     },
     treeHundred: {
-        header: '300+',
+        Header: '300+',
         accessor: '300+',
     },
 }
