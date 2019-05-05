@@ -12,7 +12,7 @@ class Table extends Component {
 render () {
 
 console.log('dataSet', dataSet);
-
+const { sortBy: currentColumn, direction} = this.props.match.params;
 // I take my data out of the table but now I need it to read
 // by reducing it
 const rawData = {
@@ -57,10 +57,7 @@ const rawData = {
         accessor: '300m+',
     },
 }
-
 const allColumns = Object.keys(rawData).reduce((acc, vs) => {
-    console.log('acc', acc);
-    console.log('vs', vs);
     return[...acc, rawData[vs]];
 }, [])
 let columns =[
