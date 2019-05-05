@@ -6,7 +6,7 @@ const ErrorPage = () => (
         <p>Try something like that:
            e.g: http://localhost:3000/city/desc
         </p>
-        <p>The first params is what you want to look at: 
+        <p>The first params is what you want to look at:
         </p>
         <p>The second set ascending or descending order.
         </p>

@@ -1,4 +1,34 @@
-started 12:45
+Columns sorting using react-table.
+
+To run locally:
+
+1/pull code,
+2/`npm install`
+3/`npm start`
+
+4/ Once it is running make sure to enter the right params such as:
+
+http://localhost:3000/city/ascd
+http://localhost:3000/country/desc
+
+The first url param will select the columns that needs to be sorted.
+The name of the first params  can be: empty, all, structure, city, country, telecom, hundre, hundredFifty, twoHundred, treeHundred
+The second will make is ascdending or descending.
+
+It took me about this time to do it:
+Started 12:45
+Finished: 12: 51
+
+and then an extra 10min to writte the read me.
+
+What I could improve:
+
+-Naming of my constant and files
+-Have a default page that display the table without sorting
+-Style: The objective was to make the table logic work so no style was done.
+-file structure
+- I decided for my sorting to be as as such: element numbers, alphabetical order and then numerical order. There could be a better sorting logic.
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
