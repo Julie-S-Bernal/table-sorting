@@ -6,16 +6,10 @@ import dataSet from './tallestBuildingCities.json';
 
 class Table extends Component {
 
-    // 3 sort columns
-    // check for errors
-
 render () {
 
-console.log('dataSet', dataSet);
 const { sortBy: currentColumn, direction} = this.props.match.params;
 const descending = direction ==='desc'? true : false;
-// I take my data out of the table but now I need it to read
-// by reducing it
 const rawData = {
     empty: {
         Header: '',
@@ -64,7 +58,7 @@ const allColumns = Object.keys(rawData).reduce((acc, vs) => {
 let columns =[
     ...allColumns
 ];
-console.log('hh[currentColumn].accessor', rawData[currentColumn].accessor)
+
   return(
     <div>
       <div> List of tallest Buildings per cities</div>
