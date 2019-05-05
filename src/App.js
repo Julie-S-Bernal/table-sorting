@@ -11,7 +11,8 @@ function App() {
       <Router>
         <Route
         exact
-        path='/'
+        //  path will enable me to pass the params to control the sorting of the table
+        path="/"
         render={props=> <Table {...props} />}
       />
       </Router>
