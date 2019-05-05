@@ -41,20 +41,20 @@ const rawData = {
         accessor: 'Telecom\nTowers',
     },
     hundred: {
-        Header: '100+',
-        accessor: '100+',
+        Header: '100m+',
+        accessor: '100m+',
     },
     hundredFifty: {
-        Header: '150+',
-        accessor: '150+',
+        Header: '150m+',
+        accessor: '150m+',
     },
     twoHundred: {
-        Header: '200+',
-        accessor: '200+',
+        Header: '200m+',
+        accessor: '200m+',
     },
     treeHundred: {
-        Header: '300+',
-        accessor: '300+',
+        Header: '300m+',
+        accessor: '300m+',
     },
 }
 
