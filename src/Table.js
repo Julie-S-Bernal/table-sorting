@@ -61,7 +61,7 @@ let columns =[
 
   return(
     <div>
-      <div> List of tallest Buildings per cities</div>
+      <h1> List of tallest Buildings per cities</h1>
       <ReactTable
       data={dataSet}
       columns={columns}
